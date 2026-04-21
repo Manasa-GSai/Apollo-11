@@ -1,0 +1,20 @@
+# Default: normalize line endings to LF on commit, checkout as LF
+* text=auto eol=lf
+
+# AGC assembly source — always LF, always treated as text
+*.agc text eol=lf
+
+# Markdown documentation — always LF
+*.md text eol=lf
+
+# JSON config files
+*.json text eol=lf
+
+# YAML config files
+*.yml text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Bun binary lockfile — never touch
+bun.lockb binary
